@@ -1,5 +1,5 @@
-describe("A suite", function() {
-  it("contains spec with an expectation", function() {
-    expect(true).toBe(true);
+describe("calendar", function() {
+  it("it should create a calendar", function() {
+    var calendar = new Calendar();
   });
 });
